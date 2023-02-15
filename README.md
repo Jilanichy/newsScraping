@@ -20,14 +20,13 @@ Clone the project
 ```
 git clone https://github.com/Jilanichy/newsScraping.git
 ```
-git 
+cd into the directory
+```
+cd newsScraping
+```
 Then, install the requirements file
 ```
 pip install -r requirements.txt
-```
-cd into the directory
-```
-cd yahoo_news
 ```
 Then, run the "yahoo_news" spider to crawl and scrap the news
 ```
