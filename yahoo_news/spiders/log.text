@@ -1,0 +1,13 @@
+2023-02-15 10:53:48 [scrapy.utils.log] INFO: Scrapy 2.8.0 started (bot: yahoo_news)
+2023-02-15 10:53:48 [scrapy.utils.log] INFO: Versions: lxml 4.9.2.0, libxml2 2.9.14, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.8.10 (default, Nov 14 2022, 12:59:47) - [GCC 9.4.0], pyOpenSSL 23.0.0 (OpenSSL 3.0.8 7 Feb 2023), cryptography 39.0.1, Platform Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+2023-02-15 10:53:48 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'yahoo_news',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.text',
+ 'NEWSPIDER_MODULE': 'yahoo_news.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['yahoo_news.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-02-15 10:53:48 [asyncio] DEBUG: Using selector: EpollSelector
+2023-02-15 10:53:48 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
