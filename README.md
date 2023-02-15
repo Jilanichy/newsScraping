@@ -24,7 +24,7 @@ cd into the directory
 ```
 cd newsScraping
 ```
-Then, install the requirements file
+Install the requirements file
 ```
 pip install -r requirements.txt
 ```
@@ -32,9 +32,9 @@ Then, run the "yahoo_news" spider to crawl and scrap the news
 ```
 scrapy crawl yahoo_news
 ```
-After that run the "news_log" to output the logs
+After that run the "news_log" spider to output the logs
 ```
-scrapy crawl yahoo_news --logfile log.text
+scrapy crawl news_log
 ```
 To find the full log
 ```
